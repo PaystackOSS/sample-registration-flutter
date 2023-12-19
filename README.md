@@ -1,16 +1,21 @@
 # sample_registration
 
-A new Flutter project.
+A basic application that shows how to accept payment in your custom Terminal app built with Flutter.
 
-## Getting Started
+You can check out our [Terminal documentation](https://paystack.com/docs/terminal/) to learn more about our in-person payment integration.
 
-This project is a starting point for a Flutter application.
+## Requirement
+- You need a Paystack Terminal to test your build. You can do this from your [Paystack Dashboard](https://dashboard.paystack.com/#/terminals/physical).
+- Read through the [integration guide]() to understand the code better.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Getting started
+- Clone the repo
+```
+git clone git@github.com:PaystackOSS/sample-gift-store.git
+```
+- Open code in your IDE (You might need both VSCode and Android studio).
+- Install dependencies
+```
+flutter pub get
+```
